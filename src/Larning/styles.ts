@@ -134,7 +134,7 @@ export const Container = styled.div`
             height: 690px;
         }
     }
-    @media screen and (max-width: 390px){
+    @media screen and (max-width: 428px){
         .head{
             height: auto;
             border-radius: 0 0 6% 6%;
@@ -372,7 +372,7 @@ export const Modal = styled.div`
             }
         }
     }
-    @media screen and (max-width: 390px){
+    @media screen and (max-width: 428px){
         padding-top: 34rem;
         padding-bottom: 20rem;
         overflow-y: scroll;
@@ -559,7 +559,7 @@ export const Inputs = styled.div`
         }
     }
 
-    @media screen and (max-width: 390px){
+    @media screen and (max-width: 428px){
         flex-direction: column;
         .types{
             flex-wrap: wrap;

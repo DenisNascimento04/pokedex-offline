@@ -57,7 +57,7 @@ export const Container = styled.div`
         cursor: pointer;
     }
     .img-pokemon{
-        height: 280px;
+        height: 28rem;
         margin-top: -11rem;
         z-index: 2;
     }
@@ -74,61 +74,60 @@ export const Container = styled.div`
         display: flex;
         gap: .6rem;
         align-items: center;
-    }
-    .name h1{
-        font-size: 2.8rem;
-    }
-    .name .ball{
-        width: 10px;
-        height: 10px;
-        border-radius: 50%;
-        background-color: #fff;
+        h1{
+            font-size: 2.8rem;
+        }
+        .ball{
+            width: 10px;
+            height: 10px;
+            border-radius: 50%;
+            background-color: #fff;
+        }
     }
     .types{
         display: flex;
         padding: 0;
         justify-content: space-between;
         gap: 2rem;
-    }
-    .types li{
-        display: flex;
-        background-color: yellow;
-        padding: .6rem 1.2rem;
-        gap: .6rem;
-        border-radius: 6px;
-        align-items: center;
-    }
-    .types li img{
-        height: 15px;
-        /* align-items: flex-end; */
-        /* justify-content: flex-end; */
-    }
-    .types li p{
-        font-size: 1.6rem;
-        font-weight: 700;
+        li{
+            display: flex;
+            background-color: yellow;
+            padding: .6rem 1.2rem;
+            gap: .6rem;
+            border-radius: 6px;
+            align-items: center;
+        }
+        li img{
+            height: 15px;
+            /* align-items: flex-end; */
+            /* justify-content: flex-end; */
+        }
+        li p{
+            font-size: 1.6rem;
+            font-weight: 700;
+        }
     }
 
     .info{
         display: flex;
         gap: 6rem;
-    }
-    .info .altura, .peso{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        gap: .2rem;
-    }
-    .info .altura div, .peso div{
-        display: flex;
-        align-items: center;
-    }
-    /* .info div p:{} */
-    .info div p:first-child{
-        font-size: 2rem;
-        font-weight: 700;
-    }
-    .info div p{
-        font-size: 1.8rem;
+        .altura, .peso{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: .2rem;
+        }
+        .altura div, .peso div{
+            display: flex;
+            align-items: center;
+        }
+        div p:first-child{
+            font-size: 2rem;
+            font-weight: 700;
+        }
+        div p{
+            font-size: 1.8rem;
+        }
     }
 
     @media screen and (min-width: 1440px) {
@@ -139,6 +138,11 @@ export const Container = styled.div`
         }
         .img-pokemon{
             height: 420px;
+        }
+    }
+    @media screen and (max-width: 428px){
+        .img-pokemon{
+            height: 70vw;
         }
     }
 `;
