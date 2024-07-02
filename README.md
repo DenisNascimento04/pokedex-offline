@@ -6,7 +6,7 @@ Com o descobrimento da biblioteca React Query, percebi que poderia ter o mesmo r
 
 ## 🚀 Começando
 
-O objetivo era criar um site esteticamente bonito que utilizasse a PokeAPI para explorar, filtrar e pesquisar por pokemons que o usuário tivesse acesso a inrmações de cada pokemon como tipo, peso, altura, linha de evolução e habilidades. 
+O objetivo era criar um site esteticamente bonito que utilizasse a PokeAPI para explorar, filtrar e pesquisar por pokemons que o usuário tivesse acesso a informações de cada pokemon como tipo, peso, altura, linha de evolução e habilidades. 
 
 ## 🛠️ Ferramentas utilizadas
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white) ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white) ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB) ![React Query](https://img.shields.io/badge/-React%20Query-FF4154?style=plastic&logo=react%20query&logoColor=white) ![Typescript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
